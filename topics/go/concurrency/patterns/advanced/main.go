@@ -6,10 +6,12 @@ package main
 
 import (
 	"fmt"
-	"log"
+	//"log"
 	"os"
 	"os/signal"
 	"time"
+
+	log "github.com/ardanlabs/gotraining/topics/go/concurrency/patterns/advanced/logger/logger.go"
 )
 
 // device allows us to mock a device we write logs to.
